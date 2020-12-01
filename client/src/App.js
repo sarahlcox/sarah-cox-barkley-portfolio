@@ -5,6 +5,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Footer from "../src/components/footer.js";
 import './App.css';
+import HomePage from './pages/HomePage.js';
+import AboutPage from './pages/AboutPage.js';
+import ProjectsPage from './pages/ProjectsPage.js';
+import ContactPage from './pages/ContactPage.js';
 
 
 class App extends React.Component {
@@ -28,7 +32,10 @@ class App extends React.Component {
         title: 'About Me',
         
       },
-      home: {
+      projects: {
+        title: 'projects',
+      },
+      contact: {
         title: 'Let\'s Connect!',
 
       },
