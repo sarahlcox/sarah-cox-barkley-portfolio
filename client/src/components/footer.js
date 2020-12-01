@@ -11,7 +11,7 @@ function Footer(){
                 <Col className="p-0" md={3} sm={12}>
                     Sarah Cox-Barkley
                 </Col>
-                <Col className="p-0 d-flex justify-content-end">
+                <Col className="p-0 d-flex justify-content-end" md={3}>
                 ©2020 All rights reserved
                 </Col>
             </Row>
