@@ -5,6 +5,12 @@ class Carousel extends React.Component{
         super(props);
         this.state={}
     }
+    render() {
+        return(
+            <p>Carousel Works!</p>
+        );
+    }
 }
+
 
 export default Carousel;
