@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Footer from "../src/components/footer.js";
+import Footer from './components/Footer.js';
 import './App.css';
 import HomePage from './pages/HomePage.js';
 import AboutPage from './pages/AboutPage.js';
@@ -25,8 +25,8 @@ class App extends React.Component {
       ],
       home: {
         title: 'Hi! I\'m Sarah.',
-        subTitle: 'Projects',
-        text: 'Take a look at my projects'
+        subTitle: 'Web Developer, and Self-Proclaimed Creative Genius',
+        text: 'Checkout my projects below'
       },
       about: {
         title: 'About Me',

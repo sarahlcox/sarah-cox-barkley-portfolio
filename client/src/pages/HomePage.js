@@ -1,8 +1,9 @@
 import React from 'react';
+import Hero from '../components/Hero.js';
 
 function HomePage(props){
     return (
-    <p>HomePage Works!</p>
+   <Hero />
     );
 }
 export default HomePage;
