@@ -1,3 +1,4 @@
+// resource: https://www.youtube.com/watch?v=tyXMy1nPIWc&t=998s
 const express = require("express");
 const path = require("path");
 const PORT = process.env.PORT || 3001;
@@ -17,3 +18,4 @@ app.get("*", function(req, res) {
 app.listen(PORT, function() {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
 });
+
