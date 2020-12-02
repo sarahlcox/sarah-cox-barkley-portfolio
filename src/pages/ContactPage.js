@@ -2,6 +2,7 @@ import React from 'react';
 // import Form from 'react-bootstrap/Form';
 import Hero from '../components/Hero';
 import Content from '../components/Content.js';
+import CircleImageHeadshot from '../components/CircleImageHeadshot';
 
 class ContactPage extends React.Component {
     constructor(props) {
