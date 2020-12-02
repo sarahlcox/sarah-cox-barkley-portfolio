@@ -14,7 +14,13 @@ Updated portfolio with resume, images and links to projects, contact, and about 
 MIT
 
 ### Questions
+<<<<<<< HEAD
 github: sarahlcox
 sarahl.cox.22@gmail.com
+=======
+sarahlcox
+sarahl.cox.22@gmail.com
+Please email me using the email above
+>>>>>>> d4bb4d4bc63a12f128d87a65d72d69c572eb302a
 
 ### Screenshot
