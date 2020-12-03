@@ -17,7 +17,7 @@ class Carousel extends React.Component{
                 title: 'Web Development',
                 subTitle: 'Full Stack Web Developer',
                 imgSrc: WebDev,
-                // link: 'https://sarahlcox.github.io/projects',
+                link: 'https://sarahlcox.github.io/projects',
                 selected: false
             },
             {
@@ -25,13 +25,13 @@ class Carousel extends React.Component{
                 title: 'Sarah Cox-Barkley',
                 subTitle: 'Creative Professional',
                 imgSrc: About,
-                // link: 'https://sarahlcox.github.io/about',
+                link: 'https://sarahlcox.github.io/about',
                 selected: false
             },
             {
                 id: 2,
                 title: 'Photography',
-                subTitle: 'View My Photography Website',
+                subTitle: 'Branding Photography Services',
                 imgSrc: Photography,
                 link: 'https://featherprintphotography.com',
                 selected: false
