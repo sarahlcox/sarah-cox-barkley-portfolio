@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sarah-cox-barkley-portfolio/static/css/main.2cde85eb.chunk.css",
-    "main.js": "/sarah-cox-barkley-portfolio/static/js/main.c5a2e47b.chunk.js",
-    "main.js.map": "/sarah-cox-barkley-portfolio/static/js/main.c5a2e47b.chunk.js.map",
+    "main.js": "/sarah-cox-barkley-portfolio/static/js/main.c1716970.chunk.js",
+    "main.js.map": "/sarah-cox-barkley-portfolio/static/js/main.c1716970.chunk.js.map",
     "runtime-main.js": "/sarah-cox-barkley-portfolio/static/js/runtime-main.44366778.js",
     "runtime-main.js.map": "/sarah-cox-barkley-portfolio/static/js/runtime-main.44366778.js.map",
     "static/css/2.1a02f21c.chunk.css": "/sarah-cox-barkley-portfolio/static/css/2.1a02f21c.chunk.css",
@@ -29,6 +29,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.d98f7283.chunk.js",
     "static/css/main.2cde85eb.chunk.css",
-    "static/js/main.c5a2e47b.chunk.js"
+    "static/js/main.c1716970.chunk.js"
   ]
 }
