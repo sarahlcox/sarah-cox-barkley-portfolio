@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import WanderlustAmerica from '../assets/images/WanderlustAmerica.png';
 import Vote2020 from '../assets/images/Vote2020.png';
 import WeatherDashboard from '../assets/images/WeatherDashboard.png';
+import BudgetTracker from '../assets/images/BudgetTracker.png';
 import CodeQuiz from '../assets/images/CodeQuiz.png';
 import UserDirectory from '../assets/images/UserDirectory.png';
 import Container from 'react-bootstrap/Container';
@@ -54,8 +55,23 @@ import Row from 'react-bootstrap/Row';
               />
       
               <Carousel.Caption>
+              <h3>Weather Dashboard</h3>
                 <p>
-                  <a href="https://sarahlcox.github.io/weather-dashboard/" target="_blank">Weather Dashboard</a>
+                  <a href="https://sarahlcox.github.io/weather-dashboard/" target="_blank">Visit the Site</a>
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block img-width"
+                src= {BudgetTracker}
+                alt="Fourth slide"
+              />
+      
+              <Carousel.Caption>
+                <h3>Budget Tracker</h3>
+                <p>
+                  <a href="https://stark-chamber-80263.herokuapp.com/" target="_blank">Visit the Site</a>
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -63,7 +79,7 @@ import Row from 'react-bootstrap/Row';
               <img
                 className="d-block img-width"
                 src= {CodeQuiz}
-                alt="Fourth slide"
+                alt="Fifth slide"
               />
       
               <Carousel.Caption>
@@ -77,7 +93,7 @@ import Row from 'react-bootstrap/Row';
               <img
                 className="d-block img-width"
                 src= {UserDirectory}
-                alt="Fourth slide"
+                alt="Sixth slide"
               />
       
               <Carousel.Caption>
