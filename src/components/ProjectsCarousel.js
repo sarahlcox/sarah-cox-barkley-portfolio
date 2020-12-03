@@ -76,7 +76,7 @@ import Row from 'react-bootstrap/Row';
             <Carousel.Item>
               <img
                 className="d-block img-width"
-                src= {CodeQuiz}
+                src= {UserDirectory}
                 alt="Fourth slide"
               />
       
