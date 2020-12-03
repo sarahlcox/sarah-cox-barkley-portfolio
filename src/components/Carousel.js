@@ -17,7 +17,7 @@ class Carousel extends React.Component{
                 title: 'Web Development',
                 subTitle: 'View My Web Development Projects',
                 imgSrc: WebDev,
-                link: '/projects',
+                link: 'https://sarahlcox.github.io/projects',
                 selected: false
             },
             {
@@ -25,7 +25,7 @@ class Carousel extends React.Component{
                 title: 'Sarah Cox-Barkley',
                 subTitle: 'View More About Me',
                 imgSrc: About,
-                link: '/About',
+                link: 'https://sarahlcox.github.io/about',
                 selected: false
             },
             {
