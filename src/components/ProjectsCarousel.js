@@ -4,6 +4,7 @@ import WanderlustAmerica from '../assets/images/WanderlustAmerica.png';
 import Vote2020 from '../assets/images/Vote2020.png';
 import WeatherDashboard from '../assets/images/WeatherDashboard.png';
 import CodeQuiz from '../assets/images/CodeQuiz.png';
+import UserDirectory from '../assets/images/UserDirectory.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -25,8 +26,10 @@ import Row from 'react-bootstrap/Row';
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>Wanderlust America</h3>
+                <p>
+                <a href="https://campground-mapper.herokuapp.com/" target="_blank">Visit the Site</a>
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -37,8 +40,10 @@ import Row from 'react-bootstrap/Row';
               />
       
               <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>Vote 2020</h3>
+                <p>
+                  <a href="https://b-dionysus.github.io/project1-Election/index.html" target="_blank">Visit the Site</a>
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -49,9 +54,8 @@ import Row from 'react-bootstrap/Row';
               />
       
               <Carousel.Caption>
-                <h3>Third slide label</h3>
                 <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                  <a href="https://sarahlcox.github.io/weather-dashboard/" target="_blank">Weather Dashboard</a>
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -63,12 +67,32 @@ import Row from 'react-bootstrap/Row';
               />
       
               <Carousel.Caption>
-                <h3>Fourth slide label</h3>
+                <h3>Code Quiz</h3>
                 <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                  <a href="https://sarahlcox.github.io/Homework_4-webapis-sbarkley/newindex.html" target="_blank">Visit the Site</a>
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block img-width"
+                src= {CodeQuiz}
+                alt="Fourth slide"
+              />
+      
+              <Carousel.Caption>
+                <h3>User Directory</h3>
+                <p>
+                  <a href="https://pacific-brushlands-70133.herokuapp.com/" target="_blank">Visit the Site</a>
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block img-width"
+                src= {UserDirectory}
+                alt="Fourth slide"
+              />
           </Carousel>
           </Row>
         </Container>
