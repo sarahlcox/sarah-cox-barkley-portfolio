@@ -2,16 +2,15 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Table of Contents
   * [ Description ](#description)
-  * [ Deployed Link ](#deployed link)
+  * [ Deployment ](#deployment)
   * [ License ](#license)
   * [ Questions ](#questions)
 
 ### Description
 Updated portfolio using React.js with images and links to projects, contact, and about pages. 
 
-### Deployed Link
-https://sarahlcox.github.io/sarah-cox-barkley-portfolio/
-
+### Deployment
+This site was built using Github Pages: [Deployed Link](https://sarahlcox.github.io/sarah-cox-barkley-portfolio/).
 
 ### License
 MIT
