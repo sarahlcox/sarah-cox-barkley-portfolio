@@ -22,16 +22,16 @@ class App extends React.Component {
         {title:'Contact',path: '/contact'},
       ],
       home: {
-        title: 'Hi! I\'m Sarah.',
+        title: 'Hi! I\'m Sarah!',
         subTitle: '',
-        text: 'Take a look at all of my creative projects'
+        text: ''
       },
       about: {
         title: 'About Me',
         
       },
       projects: {
-        title: 'projects',
+        title: 'Projects',
       },
       contact: {
         title: 'Let\'s Connect!',

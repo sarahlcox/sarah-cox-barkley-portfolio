@@ -17,15 +17,15 @@ class Carousel extends React.Component{
                 title: 'Web Development',
                 subTitle: 'View My Web Development Projects',
                 imgSrc: WebDev,
-                link: '#',
+                link: '/projects',
                 selected: false
             },
             {
                 id: 1,
                 title: 'Sarah Cox-Barkley',
-                subTitle: 'View My Resume & About Me Details',
+                subTitle: 'View More About Me',
                 imgSrc: About,
-                link: '#',
+                link: '/About',
                 selected: false
             },
             {
@@ -33,7 +33,7 @@ class Carousel extends React.Component{
                 title: 'Photography',
                 subTitle: 'View My Photography Website',
                 imgSrc: Photography,
-                link: 'https://featherprint',
+                link: 'https://featherprintphotography.com',
                 selected: false
             },
         ]}
