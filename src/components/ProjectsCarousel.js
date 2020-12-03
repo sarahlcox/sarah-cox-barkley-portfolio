@@ -87,12 +87,6 @@ import Row from 'react-bootstrap/Row';
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block img-width"
-                src= {UserDirectory}
-                alt="Fourth slide"
-              />
           </Carousel>
           </Row>
         </Container>
