@@ -15,17 +15,17 @@ class Carousel extends React.Component{
             {
                 id: 0,
                 title: 'Web Development',
-                subTitle: 'View My Web Development Projects',
+                subTitle: 'Full Stack Web Developer',
                 imgSrc: WebDev,
-                link: 'https://sarahlcox.github.io/projects',
+                // link: 'https://sarahlcox.github.io/projects',
                 selected: false
             },
             {
                 id: 1,
                 title: 'Sarah Cox-Barkley',
-                subTitle: 'View More About Me',
+                subTitle: 'Creative Professional',
                 imgSrc: About,
-                link: 'https://sarahlcox.github.io/about',
+                // link: 'https://sarahlcox.github.io/about',
                 selected: false
             },
             {
