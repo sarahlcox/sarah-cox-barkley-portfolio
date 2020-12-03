@@ -3,36 +3,25 @@ import React from 'react';
 import Hero from '../components/Hero';
 import Content from '../components/Content.js';
 import CircleImageHeadshot from '../components/CircleImageHeadshot';
+import ContactInfo from '../components/ContactInfo';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
-class ContactPage extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: '',
-            email: '',
-            message: '',
-            disabled: false,
-            emailSent: null,
-        }
-    }
 
-    render() {
-        return(
-            <div>
-                <Hero title={this.props.title} />
-                <Content>
-                <ul>
-                <li><a href="mailto:sarahl.cox.22@gmail.com" target="_blank">sarahl.cox.22@gmail.com</a></li>
-                <li><a href="https://linkedin.com/in/sarahlcox22" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/sarahlcox" target="_blank">GitHub</a></li>
-                <li><a href="https://www.facebook.com/FeatherPrintPhoto" target="_blank">Facebook</a></li>
-                <li><a href="https://www.instagram.com/sarahl.cox/" target="_blank">Instagram</a></li>
-                <li><a href="https://featherprintphotography.com/" target="_blank">My Website</a></li>
-              </ul>
-                </Content>
-            </div>
-        );
-    }
+
+function ContactPage(props){
+    return(
+        <Container fluid={true}>
+            <Hero title={props.title} />
+            <Content>
+                <Row>
+                <Col><Container className="pic-container"><CircleImageHeadshot/></Container></Col>
+                <Col><Container><ContactInfo /></Container></Col>
+                </Row>
+            </Content>
+        </Container >
+    );
+
 }
-
 export default ContactPage;

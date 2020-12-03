@@ -7,12 +7,32 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media (max-width: 900px) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  .carousel {
+    width:auto;
+    height:auto;
+  }
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black !important;
+  border-radius: 8px;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.carousel-caption {
+  color: black !important;
+  border-radius: 8px;
+  background-color: #0000003b !important;
+}
+
+.pic-container{
+  padding-right: 50px !important;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +55,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.img-width {
+  width:800px;
 }

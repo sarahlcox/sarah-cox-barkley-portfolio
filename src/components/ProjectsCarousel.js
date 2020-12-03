@@ -20,7 +20,7 @@ import Row from 'react-bootstrap/Row';
           <Carousel activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
               <img
-                className="d-block w-100"
+                className="d-block img-width"
                 src= {WanderlustAmerica}
                 alt="First slide"
               />
@@ -31,7 +31,7 @@ import Row from 'react-bootstrap/Row';
             </Carousel.Item>
             <Carousel.Item>
               <img
-                className="d-block w-100"
+                className="d-block img-width"
                 src= {Vote2020}
                 alt="Second slide"
               />
@@ -43,7 +43,7 @@ import Row from 'react-bootstrap/Row';
             </Carousel.Item>
             <Carousel.Item>
               <img
-                className="d-block w-100"
+                className="d-block img-width"
                 src= {WeatherDashboard}
                 alt="Third slide"
               />
@@ -57,7 +57,7 @@ import Row from 'react-bootstrap/Row';
             </Carousel.Item>
             <Carousel.Item>
               <img
-                className="d-block w-100"
+                className="d-block img-width"
                 src= {CodeQuiz}
                 alt="Fourth slide"
               />
